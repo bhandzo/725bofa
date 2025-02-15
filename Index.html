@@ -3,52 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>720 at BofA - Parent Advocacy Group</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <title>720 at BofA - Advocacy for a Better Bus Stop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #0073e6;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+            background: white;
+            margin-top: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #0073e6;
+        }
+        .cta {
+            background: #0073e6;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+        .cta a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact-form {
+            margin-top: 20px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+        }
+        button {
+            background: #0073e6;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #ddd;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
 
-    <header>
-        <h1>720 at BofA</h1>
-        <p>Advocating for a better and more punctual school bus experience.</p>
-    </header>
+<header>
+    720 at BofA - Advocacy for a Better Bus Stop
+</header>
 
-    <nav>
-        <ul>
-            <li><a href="#about">Our Mission</a></li>
-            <li><a href="#petition">Support the Move</a></li>
-            <li><a href="#tracker">On-Time Tracker</a></li>
-        </ul>
-    </nav>
+<div class="container">
+    <h2>Why We Exist</h2>
+    <p>We are a group of parents advocating for a safer and more convenient bus stop for our children. We aim to:</p>
+    <ul>
+        <li>Move the morning bus stop to a safer location.</li>
+        <li>Ensure all parents arrive on time to avoid delays.</li>
+        <li>Work together to improve communication and accountability.</li>
+    </ul>
 
-    <section id="about">
-        <h2>Our Mission</h2>
-        <p>We are a group of parents advocating to move our children's morning bus stop to a safer, more convenient location and ensuring that all parents arrive on time at 7:20 AM sharp.</p>
-    </section>
+    <h2>How You Can Help</h2>
+    <p>We need support from parents in our community. Join us in signing the petition to move the bus stop and help hold each other accountable for punctuality.</p>
 
-    <section id="petition">
-        <h2>Sign the Petition</h2>
-        <p>Help us advocate for a better bus stop location by signing our petition.</p>
-        <form id="petition-form">
-            <input type="text" id="name" placeholder="Your Name" required>
-            <input type="email" id="email" placeholder="Your Email" required>
-            <button type="submit">Sign Now</button>
-        </form>
-        <p id="petition-message"></p>
-    </section>
+    <div class="cta">
+        <a href="mailto:contact@720atbofa.com">Join Us - Contact Us Now</a>
+    </div>
 
-    <section id="tracker">
-        <h2>On-Time Tracker</h2>
-        <p>We’re keeping track of how many parents arrive on time at 7:20 AM.</p>
-        <button id="check-in">I Was On Time Today!</button>
-        <p id="tracker-message">Total check-ins: <span id="check-in-count">0</span></p>
-    </section>
+    <h2>Contact Us</h2>
+    <p>If you have questions or want to get involved, fill out the form below:</p>
 
-    <footer>
-        <p>&copy; 2025 720 at BofA | Contact us at <a href="mailto:info@720atbofa.com">info@720atbofa.com</a></p>
-    </footer>
+    <form class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</div>
 
-    <script src="script.js"></script>
+<footer>
+    &copy; 2025 720 at BofA. All rights reserved.
+</footer>
+
 </body>
 </html>
